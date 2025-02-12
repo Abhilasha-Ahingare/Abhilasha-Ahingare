@@ -2,10 +2,8 @@
 
 <h1 align="center">Hi 👋, I'm ABHILASHA AHINGARE</h1>
 <h3 align="center">A passionate frontend developer from India</h3>
-<img src="https://user-images.githubusercontent.com/102985224/211582827-8fd748d6-9181-4c5f-a620-76168b861a4d.gif">
 
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=abhilasha-ahingare&label=Profile%20views&color=0e75b6&style=flat" alt="abhilasha-ahingare" /> </p>
+<p align="left"> <img src="https://bootestech.com/wp-content/uploads/2024/10/intiate-ecommerce-website-brand.gif" /> </p>
 
 - 🔭 I’m currently working on **Some Frontend Projects**
 
@@ -15,7 +13,7 @@
 
 - 📫 How to reach me **abhilashaahingare.02@gmail.com**
 
-<h2>**Skills**</h2>
+<h2> 🪄 Skils:🪄</h2>
 
 <p><a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="42" height="42" /></a>
 <a target="_blank" href="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" style="display: inline-block;"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="42" height="42" /></a>
