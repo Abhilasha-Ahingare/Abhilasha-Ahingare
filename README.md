@@ -1,29 +1,155 @@
-[![MasterHead](https://user-images.githubusercontent.com/74038190/243078834-72903324-cf57-4e90-80a6-ed3c9734e0ed.gif)]()
+<!-- Violet Signal / Design 29. Profile: Abhilasha-Ahingare. Edit scripts/build_theme.py to regenerate this file. -->
 
-<h1 align="center">Hi 👋, I'm ABHILASHA AHINGARE</h1>
-<h3 align="center">A passionate frontend developer from India</h3>
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
+  <img src="./assets/hero.svg" width="100%" alt="Abhilasha Ahingare — Frontend Developer. Thoughtful interfaces. Practical web experiences.">
+</picture>
 
-# 💫 About Me:
-🔭 I’m currently working on  Some Frontend Projects<br>🌱 I’m currently learning Express JS<br>💬 Ask me about MERN Development
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/core-stack-mobile.svg">
+  <img src="./assets/core-stack.svg" width="100%" alt="React, JavaScript, TypeScript, Node.js, MongoDB and MySQL">
+</picture>
 
+<p align="center">
+  <a href="mailto:abhilashaahingare.02@gmail.com"><img src="./assets/badges/email.svg" height="36" alt="Email Abhilasha"></a>
+  <a href="https://github.com/Abhilasha-Ahingare?tab=repositories"><img src="./assets/badges/repositories.svg" height="36" alt="Browse all repositories"></a>
+</p>
 
-## 🌐 Socials:
-[![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:abhilashaahingare.02@gmail.com) 
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/section-projects-mobile.svg">
+  <img src="./assets/section-projects.svg" width="100%" alt="Selected projects">
+</picture>
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![EJS](https://img.shields.io/badge/ejs-%23B4CA65.svg?style=for-the-badge&logo=ejs&logoColor=black) ![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD) ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white) ![Remix](https://img.shields.io/badge/remix-%23000.svg?style=for-the-badge&logo=remix&logoColor=white) ![React Router](https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Abhilasha-Ahingare&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=Abhilasha-Ahingare&theme=dark&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Abhilasha-Ahingare&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/projects-mobile.svg">
+  <img src="./assets/projects.svg" width="100%" alt="MERN Admin Panel — authentication and service management. Chat App — a web chat project.">
+</picture>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<p align="center">
+  <a href="https://github.com/Abhilasha-Ahingare/adimn-pannel"><img src="./assets/badges/admin-source.svg" height="36" alt="MERN Admin Panel repository"></a>
+  <a href="https://github.com/Abhilasha-Ahingare/chat-app"><img src="./assets/badges/chat-source.svg" height="36" alt="Chat App repository"></a>
+</p>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Abhilasha-Ahingare&limit=5&theme=dark&combine_all_yearly_contributions=true)
+<details>
+<summary>More projects &amp; learning repositories</summary>
 
----
-[![](https://visitcount.itsvg.in/api?id=Abhilasha-Ahingare&icon=0&color=0)](https://visitcount.itsvg.in)
+- [Event Management & Ticketing System](https://github.com/Abhilasha-Ahingare/Event-Management-Ticketing-System)
+- [React Projects](https://github.com/Abhilasha-Ahingare/REACT-PROJECT)
+- [MERN Stack Projects](https://github.com/Abhilasha-Ahingare/MERN-STACK-PROJECTS)
+- [HTML, CSS & JavaScript Projects](https://github.com/Abhilasha-Ahingare/HTML_CSS_JAVASCRIPT_PROJECTS)
+- [HTML & CSS Projects](https://github.com/Abhilasha-Ahingare/HTML-CSS-PROJECTS)
+- [JavaScript Mini Projects](https://github.com/Abhilasha-Ahingare/JAVASCRIPT-MINI-FUNCTIONALITY-PROJECT-S)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+</details>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/about-mobile.svg">
+  <img src="./assets/about.svg" width="100%" alt="About me: frontend developer from India; building frontend projects; learning Express.js; ask me about MERN development.">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/section-stack-mobile.svg">
+  <img src="./assets/section-stack.svg" width="100%" alt="Tech stack">
+</picture>
+
+**Languages**
+
+<p>
+  <img src="./assets/badges/html5.svg" height="36" alt="HTML5">
+  <img src="./assets/badges/css3.svg" height="36" alt="CSS3">
+  <img src="./assets/badges/javascript.svg" height="36" alt="JavaScript">
+  <img src="./assets/badges/typescript.svg" height="36" alt="TypeScript">
+</p>
+
+**Frontend & styling**
+
+<p>
+  <img src="./assets/badges/react.svg" height="36" alt="React">
+  <img src="./assets/badges/remix.svg" height="36" alt="Remix">
+  <img src="./assets/badges/react-router.svg" height="36" alt="React Router">
+  <img src="./assets/badges/redux.svg" height="36" alt="Redux">
+  <img src="./assets/badges/tailwindcss.svg" height="36" alt="Tailwind CSS">
+  <img src="./assets/badges/bootstrap.svg" height="36" alt="Bootstrap">
+  <img src="./assets/badges/mui.svg" height="36" alt="MUI">
+  <img src="./assets/badges/sass.svg" height="36" alt="Sass">
+  <img src="./assets/badges/vite.svg" height="36" alt="Vite">
+</p>
+
+**Backend & data**
+
+<p>
+  <img src="./assets/badges/nodejs.svg" height="36" alt="Node.js">
+  <img src="./assets/badges/ejs.svg" height="36" alt="EJS">
+  <img src="./assets/badges/mongodb.svg" height="36" alt="MongoDB">
+  <img src="./assets/badges/mysql.svg" height="36" alt="MySQL">
+</p>
+
+**Tools & design**
+
+<p>
+  <img src="./assets/badges/git.svg" height="36" alt="Git">
+  <img src="./assets/badges/github.svg" height="36" alt="GitHub">
+  <img src="./assets/badges/npm.svg" height="36" alt="npm">
+  <img src="./assets/badges/nodemon.svg" height="36" alt="Nodemon">
+  <img src="./assets/badges/canva.svg" height="36" alt="Canva">
+</p>
+
+**Currently learning**
+
+<img src="./assets/badges/express-learning.svg" height="36" alt="Learning Express.js">
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/section-activity-mobile.svg">
+  <img src="./assets/section-activity.svg" width="100%" alt="GitHub activity">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/metrics/overview-mobile.svg">
+  <img src="./assets/metrics/overview.svg" width="100%" alt="Public GitHub overview">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/metrics/streak-mobile.svg">
+  <img src="./assets/metrics/streak.svg" width="100%" alt="Current and longest contribution streaks">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/metrics/languages-mobile.svg">
+  <img src="./assets/metrics/languages.svg" width="100%" alt="Languages by code bytes across public repositories">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/metrics/calendar-mobile.svg">
+  <img src="./assets/metrics/calendar.svg" width="100%" alt="Violet contribution calendar — daily counts available in the data folder">
+</picture>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/metrics/top-repos-mobile.svg">
+  <img src="./assets/metrics/top-repos.svg" width="100%" alt="Top contributed repositories — GitHub-attributed commits in owned public repositories">
+</picture>
+
+<details>
+<summary>Activity details &amp; repository links</summary>
+
+- [Daily contribution table and repository ranking](./data/ACTIVITY.md)
+- [Complete metrics snapshot](./data/metrics.json)
+
+Cards refresh through the included GitHub Actions workflow. The contribution calendar covers the latest 365 days; streaks use the available history from the account-creation year. Language percentages describe repository code, not proficiency. The repository ranking includes owned public repositories and uses GitHub-attributed commit counts.
+
+</details>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/metrics/quote-mobile.svg">
+  <img src="./assets/metrics/quote.svg" width="100%" alt="Daily dev quote — an original Violet Signal development note">
+</picture>
+
+<a href="mailto:abhilashaahingare.02@gmail.com">
+<picture>
+  <source media="(max-width: 600px)" srcset="./assets/footer-mobile.svg">
+  <img src="./assets/footer.svg" width="100%" alt="Email Abhilasha: abhilashaahingare.02@gmail.com">
+</picture>
+</a>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Abhilasha-Ahingare&amp;label=Profile+views&amp;color=7650ab&amp;style=flat" alt="Profile image request counter">
+</p>
