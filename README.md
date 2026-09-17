@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/hero-mobile.svg">
-  <img src="./assets/hero.svg" width="100%" alt="Abhilasha Ahingare — Frontend Developer. Thoughtful interfaces. Practical web experiences.">
+  <img src="./assets/hero.svg" width="100%" alt="Abhilasha Ahingare — MERN Stack Developer. Thoughtful interfaces. Practical web experiences.">
 </picture>
 
 <picture>
