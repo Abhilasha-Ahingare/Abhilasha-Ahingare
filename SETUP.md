@@ -23,6 +23,12 @@ aur `assets` ek hi level par hone chahiye. Sirf README paste karne se local imag
 load nahi hongi. Purani README ko replace karo; unrelated repository files ko
 delete karne ki zaroorat nahi hai.
 
+**Agar purana Violet Signal package pehle se laga hua hai:** is ZIP ke andar
+ka `README.md`, poora `assets` folder aur `scripts/build_theme.py` zaroor replace
+karo. Naam, role, projects aur stack ka visible text SVG images mein hai;
+sirf README ke `alt` text ko badalne se images nahi badlengi. Naya generator
+upload karne se daily refresh bhi updated details ko hi banayega.
+
 The profile repository must be public and its name must match the username.
 See [GitHub's profile README requirements](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
 and [upload instructions](https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository).
@@ -100,8 +106,9 @@ only when you want to rebuild the template.
 ## What the package includes
 
 - Hero, project illustrations, two-column desktop projects, stacked mobile cards.
-- All 22 technologies from the supplied README, plus an explicitly labelled
-  **Express.js · learning** badge.
+- 21 technology badges, with PostgreSQL and Express.js in Backend & data,
+  plus an explicitly labelled **System Design · learning** badge.
+- MERN Stack Developer role in both hero sizes and the About section.
 - About section, email and repository links; no invented LinkedIn or portfolio URL.
 - Real overview, streaks, language composition, violet contribution grid and
   top contributed repository ranking.
@@ -109,10 +116,12 @@ only when you want to rebuild the template.
 - Daily development quote and a matching optional profile-view counter.
 - Local SVG files and a standard-library Python refresh workflow.
 
-The featured projects are **MERN Admin Panel** (`adimn-pannel`) and **Chat App**
-(`chat-app`), both found in Abhilasha's public repositories. Their illustrations
-are decorative artwork, not screenshots. Source links are provided; application
-functionality and deployment health have not been audited.
+The featured projects are **ProjectHub** (`project-management-system`) and
+**Event Ticket Management System** (`Event-Management-Ticketing-System`).
+ProjectHub's branding was verified in its public frontend source; both repository
+links and their public source trees were checked on 2026-09-17. Their illustrations
+are decorative artwork, not screenshots. Application functionality and deployment
+health have not been audited.
 
 ## GitHub styling limits
 

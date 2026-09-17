@@ -9,9 +9,9 @@ USER = 'Abhilasha-Ahingare'
 EMAIL = 'abhilashaahingare.02@gmail.com'
 TECH = {
     'Languages': [('html5','HTML5'),('css3','CSS3'),('javascript','JavaScript'),('typescript','TypeScript')],
-    'Frontend & styling': [('react','React'),('remix','Remix'),('react-router','React Router'),('redux','Redux'),('tailwindcss','Tailwind CSS'),('bootstrap','Bootstrap'),('mui','MUI'),('sass','Sass'),('vite','Vite')],
-    'Backend & data': [('nodejs','Node.js'),('ejs','EJS'),('mongodb','MongoDB'),('mysql','MySQL')],
-    'Tools & design': [('git','Git'),('github','GitHub'),('npm','npm'),('nodemon','Nodemon'),('canva','Canva')],
+    'Frontend & styling': [('react','React'),('react-router','React Router'),('redux','Redux'),('tailwindcss','Tailwind CSS'),('bootstrap','Bootstrap'),('mui','MUI'),('sass','Sass'),('vite','Vite')],
+    'Backend & data': [('nodejs','Node.js'),('express','Express.js'),('ejs','EJS'),('mongodb','MongoDB'),('postgresql','PostgreSQL')],
+    'Tools & design': [('git','Git'),('github','GitHub'),('npm','npm'),('nodemon','Nodemon')],
 }
 
 def write(name, value):
@@ -36,7 +36,7 @@ def hero(mobile=False):
     if mobile:
         body += '<ellipse cx="496" cy="87" rx="103" ry="24" transform="rotate(-31 496 87)" fill="none" stroke="#83649e" stroke-opacity=".45"/>'
         body += '<circle cx="530" cy="91" r="24" fill="url(#spark)"/><circle cx="530" cy="91" r="5" fill="#cda8ff"/>'
-        body += text(300,58,'FRONTEND DEVELOPER',13,MUTED,500,'middle',letter_spacing=4)
+        body += text(300,58,'MERN STACK DEVELOPER',13,MUTED,500,'middle',letter_spacing=4)
         body += text(300,145,'Abhilasha',66,TEXT,700,'middle')
         body += text(300,211,'Ahingare',66,TEXT,700,'middle')
         body += text(300,266,'Thoughtful interfaces.',22,MUTED,400,'middle')
@@ -45,7 +45,7 @@ def hero(mobile=False):
     else:
         body += '<ellipse cx="840" cy="130" rx="130" ry="25" transform="rotate(-30 840 130)" fill="none" stroke="#9473b7" stroke-opacity=".45"/>'
         body += '<circle cx="885" cy="134" r="25" fill="url(#spark)"/><circle cx="885" cy="134" r="6" fill="#cda8ff"/>'
-        body += text(500,82,'FRONTEND DEVELOPER',13,MUTED,500,'middle',letter_spacing=5)
+        body += text(500,82,'MERN STACK DEVELOPER',13,MUTED,500,'middle',letter_spacing=5)
         body += text(500,162,'Abhilasha Ahingare',64,TEXT,700,'middle')
         body += text(500,210,'Thoughtful interfaces. Practical web experiences.',22,MUTED,400,'middle')
         body += text(500,255,'REACT  ·  JAVASCRIPT  ·  TYPESCRIPT',13,TEXT,400,'middle',letter_spacing=2.5)
@@ -54,11 +54,11 @@ def hero(mobile=False):
         body += line(38,195,66,195,'#5b536b',2)
         for i,label in enumerate(['SIMPLE','IDEAS','BETTER','SOFTWARE']):
             body += text(962,228+i*15,label,8,MUTED,400,'end',letter_spacing=2)
-    return svg(w,h,body,'Abhilasha Ahingare — Frontend Developer','Thoughtful interfaces. Practical web experiences. React, JavaScript and TypeScript.')
+    return svg(w,h,body,'Abhilasha Ahingare — MERN Stack Developer','Thoughtful interfaces. Practical web experiences. React, JavaScript and TypeScript.')
 
 def core_stack(mobile=False):
     w,h=(600,102) if mobile else (1000,64)
-    labels=['React','JavaScript','TypeScript','Node.js','MongoDB','MySQL']
+    labels=['React','JavaScript','TypeScript','Node.js','MongoDB','PostgreSQL']
     body=''
     for i,label in enumerate(labels):
         cols=3 if mobile else 6
@@ -78,33 +78,40 @@ def section(title, caption='', mobile=False):
 def project_art(kind):
     body='''<defs><linearGradient id="projectLight" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#312340"/><stop offset="1" stop-color="#11141b"/></linearGradient><linearGradient id="glass"><stop stop-color="#7652b6" stop-opacity=".9"/><stop offset="1" stop-color="#352447" stop-opacity=".4"/></linearGradient></defs>'''
     body+=rect(0,0,430,213,'url(#projectLight)',BORDER,9)
-    if kind=='admin':
-        body+=rect(43,27,336,163,'#191721','#493763',9)
-        body+=rect(43,27,64,163,'#211c2e','none',9)
-        body+=text(59,53,'A',16,ACCENT,700)
-        for yy in [72,96,120,144]:body+=rect(58,yy,33,5,'#514265','none',2)
+    if kind=='projecthub':
+        body+=rect(40,26,350,164,'#191721','#493763',9)
+        body+=rect(40,26,350,32,'#282034','none',9)
+        for xx in [56,68,80]:body+=f'<circle cx="{xx}" cy="42" r="3" fill="#9a7ec0"/>'
+        body+=text(103,46,'PROJECTHUB',10,'#cbb8e8',600,letter_spacing=1.5)
         for i in range(3):
-            xx=125+i*78
-            body+=rect(xx,51,64,37,'#302440','#594075',5)
-            body+=line(xx+11,63,xx+30,63,ACCENT,3)+line(xx+11,74,xx+44,74,'#68517f',3)
-        body+='<path d="M133 157L163 146 195 151 225 118 253 128 283 112 330 107" fill="none" stroke="#b28aff" stroke-width="3"/>'
-        body+=line(126,171,356,171,'#403448')
-        body+='<circle cx="283" cy="112" r="5" fill="#dec8ff"/>'
+            xx=57+i*106
+            body+=rect(xx,72,93,102,'#211c2c','#3b304a',6)
+            body+=rect(xx+10,82,42,4,ACCENT if i==1 else '#756187','none',2)
+            for j in range(2 if i<2 else 1):
+                yy=97+j*35
+                body+=rect(xx+8,yy,77,28,'#322541','#57406f',5)
+                body+=line(xx+16,yy+9,xx+60,yy+9,'#c0a7dd',2)
+                body+=line(xx+16,yy+17,xx+43,yy+17,'#715985',2)
+        body+='<circle cx="334" cy="145" r="17" fill="url(#glass)" stroke="#9772c7"/>'
+        body+='<path d="M327 145L332 150 341 140" fill="none" stroke="#e2cfff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'
     else:
-        body+=rect(75,59,220,125,'#221b31','#423352',12)
-        body+=rect(119,27,237,135,'url(#glass)','#7356a0',12)
-        body+='<path d="M297 158L327 182 323 156Z" fill="#443056" stroke="#7356a0"/>'
-        for i in range(3):
-            yy=57+i*32
-            body+=f'<circle cx="150" cy="{yy}" r="6" fill="#e2cfff"/>'
-            body+=line(170,yy,287-(i%2)*30,yy,'#bba3d6',4)
-        body+=rect(48,140,101,40,'#322544','#69488d',10)
-        for xx in [77,98,119]:body+=f'<circle cx="{xx}" cy="160" r="4" fill="#c6a5f3"/>'
+        body+=rect(51,34,171,143,'#211b2e','#594075',10)
+        body+=rect(51,34,171,39,'url(#glass)','none',10)
+        for xx in [85,187]:body+=line(xx,26,xx,45,'#ceafea',5)
+        for row in range(3):
+            for col in range(4):
+                body+=rect(69+col*34,88+row*25,16,12,'#b28aff' if (row,col)==(1,2) else '#49375c','none',3)
+        body+='<g transform="rotate(-9 279 131)"><path d="M186 82H370Q381 82 381 93V111A13 13 0 0 0 381 137V158Q381 169 370 169H186Q175 169 175 158V137A13 13 0 0 0 175 111V93Q175 82 186 82Z" fill="url(#glass)" stroke="#9871c2"/>'
+        body+='<path d="M324 91V160" stroke="#a78abb" stroke-dasharray="4 5"/>'
+        body+=text(197,111,'ADMIT ONE',11,'#eadbff',700,letter_spacing=2)
+        body+=line(197,125,296,125,'#bba3d6',3)+line(197,137,267,137,'#8a6aab',3)
+        for i,ww in enumerate([2,4,2,3,2]):body+=rect(339+i*5,111,ww,30,'#d6bdf4','none',0)
+        body+='</g>'
     return body.replace('projectLight',kind+'Light').replace('glass',kind+'Glass')
 
 def projects(mobile=False):
     w,h=(600,810) if mobile else (1000,401)
-    items=[('MERN Admin Panel','Authentication & service management','MERN stack','admin'),('Chat App','A web chat project','JavaScript','chat')]
+    items=[('ProjectHub','Projects, tasks & team collaboration','MERN stack','projecthub'),('Event Ticket Management','Event discovery & ticket booking','MERN stack','events')]
     body=''
     for i,(name,desc,stack,kind) in enumerate(items):
         x,y=(1,i*405+1) if mobile else (i*511+1,1)
@@ -112,28 +119,28 @@ def projects(mobile=False):
         card=rect(0,0,cw-1,391,PANEL,BORDER,10)
         scale=(cw-48)/430
         card+=f'<g transform="translate(24 22) scale({scale:.4f} {(.98 if mobile else .98):.4f})">{project_art(kind)}</g>'
-        card+=text(24,271,name,30,TEXT,700)+text(24,305,desc,18,MUTED)
+        card+=text(24,271,name,28 if kind=='events' else 30,TEXT,700)+text(24,305,desc,18,MUTED)
         card+=rect(24,330,151,30,'#261d35','#443255',15)+text(39,350,'Source available',13,ACCENT,500)
         card+=text(cw-25,350,stack,13,MUTED,400,'end')
         body+=f'<g transform="translate({x} {y})">{card}</g>'
-    return svg(w,h,body,'Selected projects: MERN Admin Panel and Chat App','Project illustrations are decorative, not application screenshots. Repository links follow below.',False)
+    return svg(w,h,body,'Selected projects: ProjectHub and Event Ticket Management System','Project illustrations are decorative, not application screenshots. Repository links follow below.',False)
 
 def about(mobile=False):
     w,h=(600,270) if mobile else (1000,232)
     body=text(30,49,'What I build',29,TEXT,700)
     if mobile:
-        lines=['React interfaces. Responsive layouts.','Practical web projects with the MERN stack.']
+        lines=['React interfaces. Node.js APIs.','MongoDB & PostgreSQL data models.']
         for i,value in enumerate(lines):body+=text(30,91+i*31,value,20,MUTED)
         body+=line(30,145,570,145)
-        body+=text(30,178,'NOW',12,ACCENT,700,letter_spacing=2)+text(103,178,'Frontend projects',17,TEXT)
-        body+=text(30,213,'LEARNING',12,ACCENT,700,letter_spacing=1)+text(135,213,'Express.js',17,TEXT)
+        body+=text(30,178,'NOW',12,ACCENT,700,letter_spacing=2)+text(103,178,'Full-stack projects',17,TEXT)
+        body+=text(30,213,'LEARNING',12,ACCENT,700,letter_spacing=1)+text(135,213,'System Design',17,TEXT)
         body+=text(30,246,'ASK ME',12,ACCENT,700,letter_spacing=1)+text(135,246,'MERN development',17,TEXT)
     else:
-        body+=text(30,92,'React interfaces. Responsive layouts. Practical web projects.',23,MUTED)
+        body+=text(30,92,'React interfaces. Node.js APIs. MongoDB & PostgreSQL data models.',23,MUTED)
         body+=line(30,118,970,118)
-        for x,label,value in [(30,'NOW','Frontend projects'),(360,'LEARNING','Express.js'),(690,'ASK ME','MERN development')]:
+        for x,label,value in [(30,'NOW','Full-stack projects'),(360,'LEARNING','System Design'),(690,'ASK ME','MERN development')]:
             body+=text(x,154,label,12,ACCENT,700,letter_spacing=2)+text(x,190,value,20,TEXT,500)
-    return svg(w,h,body,'About Abhilasha','Frontend developer from India. Working on frontend projects, learning Express.js, and happy to discuss MERN development.')
+    return svg(w,h,body,'About Abhilasha','MERN Stack Developer from India. Building full-stack projects, learning System Design, and happy to discuss MERN development.')
 
 def footer(mobile=False):
     w,h=(600,149) if mobile else (1000,137)
@@ -147,17 +154,17 @@ def picture(name,alt,width='100%'):
 
 def make_readme():
     parts=[f'<!-- Violet Signal / Design 29. Profile: {USER}. Edit scripts/build_theme.py to regenerate this file. -->',
-           picture('hero','Abhilasha Ahingare — Frontend Developer. Thoughtful interfaces. Practical web experiences.'),
-           picture('core-stack','React, JavaScript, TypeScript, Node.js, MongoDB and MySQL'),
+           picture('hero','Abhilasha Ahingare — MERN Stack Developer. Thoughtful interfaces. Practical web experiences.'),
+           picture('core-stack','React, JavaScript, TypeScript, Node.js, MongoDB and PostgreSQL'),
            '<p align="center">\n  <a href="mailto:'+EMAIL+'"><img src="./assets/badges/email.svg" height="36" alt="Email Abhilasha"></a>\n  <a href="https://github.com/'+USER+'?tab=repositories"><img src="./assets/badges/repositories.svg" height="36" alt="Browse all repositories"></a>\n</p>',
-           picture('section-projects','Selected projects'),picture('projects','MERN Admin Panel — authentication and service management. Chat App — a web chat project.'),
-           '<p align="center">\n  <a href="https://github.com/'+USER+'/adimn-pannel"><img src="./assets/badges/admin-source.svg" height="36" alt="MERN Admin Panel repository"></a>\n  <a href="https://github.com/'+USER+'/chat-app"><img src="./assets/badges/chat-source.svg" height="36" alt="Chat App repository"></a>\n</p>',
+           picture('section-projects','Selected projects'),picture('projects','ProjectHub — projects, tasks and team collaboration. Event Ticket Management System — event discovery and ticket booking.'),
+           '<p align="center">\n  <a href="https://github.com/'+USER+'/project-management-system"><img src="./assets/badges/projecthub-source.svg" height="36" alt="ProjectHub repository"></a>\n  <a href="https://github.com/'+USER+'/Event-Management-Ticketing-System"><img src="./assets/badges/event-source.svg" height="36" alt="Event Ticket Management System repository"></a>\n</p>',
            '<details>\n<summary>More projects &amp; learning repositories</summary>\n\n'+ '\n'.join(f'- [{label}](https://github.com/{USER}/{slug})' for slug,label in [('Event-Management-Ticketing-System','Event Management & Ticketing System'),('REACT-PROJECT','React Projects'),('MERN-STACK-PROJECTS','MERN Stack Projects'),('HTML_CSS_JAVASCRIPT_PROJECTS','HTML, CSS & JavaScript Projects'),('HTML-CSS-PROJECTS','HTML & CSS Projects'),('JAVASCRIPT-MINI-FUNCTIONALITY-PROJECT-S','JavaScript Mini Projects')])+'\n\n</details>',
-           picture('about','About me: frontend developer from India; building frontend projects; learning Express.js; ask me about MERN development.'),
+           picture('about','About me: MERN Stack Developer from India; building full-stack projects; learning System Design; ask me about MERN development.'),
            picture('section-stack','Tech stack')]
     for group,items in TECH.items():
         parts.append(f'**{group}**\n\n<p>\n'+'\n'.join(f'  <img src="./assets/badges/{slug}.svg" height="36" alt="{label}">' for slug,label in items)+'\n</p>')
-    parts.append('**Currently learning**\n\n<img src="./assets/badges/express-learning.svg" height="36" alt="Learning Express.js">')
+    parts.append('**Currently learning**\n\n<img src="./assets/badges/system-design-learning.svg" height="36" alt="Learning System Design">')
     parts.append(picture('section-activity','GitHub activity'))
     for name,alt in [('overview','Public GitHub overview'),('streak','Current and longest contribution streaks'),('languages','Languages by code bytes across public repositories'),('calendar','Violet contribution calendar — daily counts available in the data folder'),('top-repos','Top contributed repositories — GitHub-attributed commits in owned public repositories')]:
         parts.append(picture('metrics/'+name,alt))
@@ -174,7 +181,7 @@ def main():
         for slug,label in [('projects','Projects'),('stack','Tech stack'),('activity','GitHub activity')]:write('section-'+slug+suffix+'.svg',section(label,mobile=mobile))
     for items in TECH.values():
         for slug,label in items:write('badges/'+slug+'.svg',badge(label))
-    for slug,label in [('email','Email'),('repositories','All repositories'),('admin-source','Admin Panel / Code'),('chat-source','Chat App / Code'),('express-learning','Express.js · learning')]:write('badges/'+slug+'.svg',badge(label,True))
+    for slug,label in [('email','Email'),('repositories','All repositories'),('projecthub-source','ProjectHub / Code'),('event-source','Event Tickets / Code'),('system-design-learning','System Design · learning')]:write('badges/'+slug+'.svg',badge(label,True))
     if '--assets-only' not in sys.argv:
         (ROOT/'README.md').write_text(make_readme(),encoding='utf-8')
 

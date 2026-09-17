@@ -7,7 +7,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/core-stack-mobile.svg">
-  <img src="./assets/core-stack.svg" width="100%" alt="React, JavaScript, TypeScript, Node.js, MongoDB and MySQL">
+  <img src="./assets/core-stack.svg" width="100%" alt="React, JavaScript, TypeScript, Node.js, MongoDB and PostgreSQL">
 </picture>
 
 <p align="center">
@@ -22,12 +22,12 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/projects-mobile.svg">
-  <img src="./assets/projects.svg" width="100%" alt="MERN Admin Panel — authentication and service management. Chat App — a web chat project.">
+  <img src="./assets/projects.svg" width="100%" alt="ProjectHub — projects, tasks and team collaboration. Event Ticket Management System — event discovery and ticket booking.">
 </picture>
 
 <p align="center">
-  <a href="https://github.com/Abhilasha-Ahingare/adimn-pannel"><img src="./assets/badges/admin-source.svg" height="36" alt="MERN Admin Panel repository"></a>
-  <a href="https://github.com/Abhilasha-Ahingare/chat-app"><img src="./assets/badges/chat-source.svg" height="36" alt="Chat App repository"></a>
+  <a href="https://github.com/Abhilasha-Ahingare/project-management-system"><img src="./assets/badges/projecthub-source.svg" height="36" alt="ProjectHub repository"></a>
+  <a href="https://github.com/Abhilasha-Ahingare/Event-Management-Ticketing-System"><img src="./assets/badges/event-source.svg" height="36" alt="Event Ticket Management System repository"></a>
 </p>
 
 <details>
@@ -44,7 +44,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/about-mobile.svg">
-  <img src="./assets/about.svg" width="100%" alt="About me: frontend developer from India; building frontend projects; learning Express.js; ask me about MERN development.">
+  <img src="./assets/about.svg" width="100%" alt="About me: MERN Stack Developer from India; building full-stack projects; learning System Design; ask me about MERN development.">
 </picture>
 
 <picture>
@@ -65,7 +65,6 @@
 
 <p>
   <img src="./assets/badges/react.svg" height="36" alt="React">
-  <img src="./assets/badges/remix.svg" height="36" alt="Remix">
   <img src="./assets/badges/react-router.svg" height="36" alt="React Router">
   <img src="./assets/badges/redux.svg" height="36" alt="Redux">
   <img src="./assets/badges/tailwindcss.svg" height="36" alt="Tailwind CSS">
@@ -79,9 +78,10 @@
 
 <p>
   <img src="./assets/badges/nodejs.svg" height="36" alt="Node.js">
+  <img src="./assets/badges/express.svg" height="36" alt="Express.js">
   <img src="./assets/badges/ejs.svg" height="36" alt="EJS">
   <img src="./assets/badges/mongodb.svg" height="36" alt="MongoDB">
-  <img src="./assets/badges/mysql.svg" height="36" alt="MySQL">
+  <img src="./assets/badges/postgresql.svg" height="36" alt="PostgreSQL">
 </p>
 
 **Tools & design**
@@ -91,12 +91,11 @@
   <img src="./assets/badges/github.svg" height="36" alt="GitHub">
   <img src="./assets/badges/npm.svg" height="36" alt="npm">
   <img src="./assets/badges/nodemon.svg" height="36" alt="Nodemon">
-  <img src="./assets/badges/canva.svg" height="36" alt="Canva">
 </p>
 
 **Currently learning**
 
-<img src="./assets/badges/express-learning.svg" height="36" alt="Learning Express.js">
+<img src="./assets/badges/system-design-learning.svg" height="36" alt="Learning System Design">
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/section-activity-mobile.svg">
